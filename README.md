@@ -6,7 +6,6 @@ This is a simple and interactive To-Do List application which allows users to ad
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
 
 ## Features
 
