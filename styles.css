@@ -6,10 +6,11 @@ body {
     background-color: #dfe7fd;
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
     margin: 0;
+    min-height: 100vh;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h2 {
 
 #container {
     width: 30%;
-    margin: 50px auto;
+    margin: auto;
     background-color: #ffdfe1;
     padding: 20px;
     border-radius: 10px;
@@ -57,6 +58,9 @@ li {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    overflow-wrap:break-word;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 li.completed {
