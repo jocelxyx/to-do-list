@@ -9,7 +9,11 @@ document.getElementById('inputTask').addEventListener('keydown', function(event)
 function addTask() {
     const inputTask = document.getElementById('inputTask');
     const taskText = inputTask.value.trim();
-
+    if (taskText.length > 78) {
+        alert('Task is too long. Maximum allowed characters are 78.');
+        return;
+    }
+    
     if (taskText === '') {
         alert('Please enter a task.');
         return;
